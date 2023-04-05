@@ -1,0 +1,341 @@
+[
+  {
+    "type": "alias",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "field_type",
+          "named": true
+        },
+        {
+          "type": "field_val",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field_val",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "fields",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "alias",
+          "named": true
+        },
+        {
+          "type": "field",
+          "named": true
+        },
+        {
+          "type": "info",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "info",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "record",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "fields",
+          "named": true
+        },
+        {
+          "type": "record_name",
+          "named": true
+        },
+        {
+          "type": "record_type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "record_name",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "record_type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "record",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "string",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "aSub",
+    "named": false
+  },
+  {
+    "type": "aai",
+    "named": false
+  },
+  {
+    "type": "aao",
+    "named": false
+  },
+  {
+    "type": "ai",
+    "named": false
+  },
+  {
+    "type": "alias",
+    "named": false
+  },
+  {
+    "type": "ao",
+    "named": false
+  },
+  {
+    "type": "bi",
+    "named": false
+  },
+  {
+    "type": "bo",
+    "named": false
+  },
+  {
+    "type": "calc",
+    "named": false
+  },
+  {
+    "type": "calcout",
+    "named": false
+  },
+  {
+    "type": "compress",
+    "named": false
+  },
+  {
+    "type": "dfanout",
+    "named": false
+  },
+  {
+    "type": "event",
+    "named": false
+  },
+  {
+    "type": "fanout",
+    "named": false
+  },
+  {
+    "type": "field",
+    "named": false
+  },
+  {
+    "type": "field_type",
+    "named": true
+  },
+  {
+    "type": "histogram",
+    "named": false
+  },
+  {
+    "type": "info",
+    "named": false
+  },
+  {
+    "type": "int64in",
+    "named": false
+  },
+  {
+    "type": "int64out",
+    "named": false
+  },
+  {
+    "type": "longin",
+    "named": false
+  },
+  {
+    "type": "longout",
+    "named": false
+  },
+  {
+    "type": "lsi",
+    "named": false
+  },
+  {
+    "type": "lso",
+    "named": false
+  },
+  {
+    "type": "mbbi",
+    "named": false
+  },
+  {
+    "type": "mbbiDirect",
+    "named": false
+  },
+  {
+    "type": "mbbo",
+    "named": false
+  },
+  {
+    "type": "mbboDirect",
+    "named": false
+  },
+  {
+    "type": "permissive",
+    "named": false
+  },
+  {
+    "type": "printf",
+    "named": false
+  },
+  {
+    "type": "record",
+    "named": false
+  },
+  {
+    "type": "sel",
+    "named": false
+  },
+  {
+    "type": "seq",
+    "named": false
+  },
+  {
+    "type": "state",
+    "named": false
+  },
+  {
+    "type": "stringin",
+    "named": false
+  },
+  {
+    "type": "stringout",
+    "named": false
+  },
+  {
+    "type": "sub",
+    "named": false
+  },
+  {
+    "type": "subArray",
+    "named": false
+  },
+  {
+    "type": "waveform",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

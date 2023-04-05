@@ -1,0 +1,67 @@
+==================
+Records
+==================
+
+## Comment
+#######################################
+
+record(ao, "$(PLACE):$(DEVICE):CURP:SP"){
+    field(DESC, "Setpoint - Current Setpoint in %")
+    field(EGU, "%")
+    field(PREC, "2")
+    field(LINR, "SLOPE")
+    field(ASLO, "$(ASLO)")
+    field(DRVL, "-100")
+    field(DRVH, "100")
+    field(DTYP, "stream")
+    field(OUT, "@bruker.proto setCurrentSetpoint() $(PORT)")
+    field(DISS, "INVALID")
+    field(SDIS, "$(PLACE):$(DEVICE):READY")
+    field(FLNK, "$(PLACE):$(DEVICE):DELAYTR")
+}
+---
+
+(source_file
+ (comment)
+ (record
+  (record_type)
+  (record_name (string))
+  (fields
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  (field
+  (field_type)
+  (field_val (string)))
+  )))
+

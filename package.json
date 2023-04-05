@@ -1,0 +1,18 @@
+{
+  "name": "tree-sitter-epics",
+  "version": "0.0.1",
+  "description": "Treesitter parser for EPICS",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parser",
+    "epics"
+  ],
+  "author": "Luka Perusko",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.17.0"
+  }
+}
